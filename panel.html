@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Panel de administración de CoSpace.">
-        <title>Panel de administración | CoSpace</title>
-    </head>
-   <body>
-        <header class="eq01-encabezado">
-            <img src="img/logo.png" alt="Logo de CoSpace" width="100" height="100" class="eq01-logo">
-         <nav class="eq01-menu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Panel de administración de CoSpace.">
+    <title>Panel de administración | CoSpace</title>
+</head>
+
+<body>
+    <header class="eq01-encabezado">
+        <img src="img/logo.png" alt="Logo de CoSpace" width="100" height="100" class="eq01-logo">
+        <nav class="eq01-menu">
             <ul>
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="principal-listado.html">Reservas</a></li>
@@ -19,9 +21,9 @@
                 <li><a href="perfil.html">Mi perfil</a></li>
                 <li><a href="login.html">Iniciar sesión</a></li>
             </ul>
-         </nav>
-        </header>
-        <main class="eq01-contenido">
+        </nav>
+    </header>
+    <main class="eq01-contenido">
         <h1>Panel de administración</h1>
         <section class="eq01-seccion">
             <h2>Gestión de reservas</h2>
@@ -30,9 +32,38 @@
                 <li><a href="principal-formulario.html">Crear nueva reserva</a></li>
             </ul>
         </section>
-        </main>
-     <footer class="eq01-pie">
+        <section class="eq01-seccion">
+            <h2>Reservas de hoy</h2>
+            <table class="eq01-tabla">
+                <caption>Reservas programadas para hoy</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Código</th>
+                        <th scope="col">Usuario</th>
+                        <th scope="col">Espacio</th>
+                        <th scope="col">Horario</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>CS-0123</td>
+                        <td>Juan Pérez</td>
+                        <td>Sala de reuniones 1</td>
+                        <td>9:00 a.m. - 10:00 a.m.</td>
+                    </tr>
+                    <tr>
+                        <td>CS-0124</td>
+                        <td>María López</td>
+                        <td>Puesto de trabajo 5</td>
+                        <td>10:30 a.m. - 12:00 p.m.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer class="eq01-pie">
         <p>&copy; 2026 CoSpace. Todos los derechos reservados.</p>
-     </footer>
-    </body>
+    </footer>
+</body>
+
 </html>
