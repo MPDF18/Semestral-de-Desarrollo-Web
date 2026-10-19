@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Listado de reservas de CoSpace con búsqueda por miembro y filtro por tipo de espacio.">
     <title>Reservas | CoSpace</title>
 </head>
-
 <body>
     <header class="eq01-encabezado">
         <img src="img/logo.png" alt="Logo de CoSpace" width="100" height="100" class="eq01-logo">
@@ -23,12 +21,27 @@
             </ul>
         </nav>
     </header>
-    <main class="eq01-contenido">
+        <main class="eq01-contenido">
         <h1>Reservas</h1>
+        <section class="eq01-seccion">
+            <h2>Buscar reservas</h2>
+            <form action="#" method="post" class="eq01-formulario">
+                <label for="eq01-buscar">Buscar por miembro:</label>
+                <input type="search" id="eq01-buscar" name="buscar" placeholder="Ej. Juan Pérez" maxlength="80">
+                <label for="eq01-filtro">Tipo de espacio:</label>
+                <select id="eq01-filtro" name="tipo_espacio">
+                    <option value="">Todos</option>
+                    <option value="puesto">Puesto flexible</option>
+                    <option value="oficina">Oficina privada</option>
+                    <option value="sala">Sala de reuniones</option>
+                    <option value="terraza">Terraza</option>
+                </select>
+                <button type="submit" class="eq01-boton">Buscar</button>
+            </form>
+        </section>
     </main>
     <footer class="eq01-pie">
         <p>&copy; 2026 CoSpace. Todos los derechos reservados.</p>
     </footer>
 </body>
-
 </html>
