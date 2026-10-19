@@ -113,3 +113,56 @@ a:hover {
 .eq01-pie p {
     margin-bottom: 0;
 }
+/* 10. Tablas */
+.eq01-tabla {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.eq01-tabla caption {
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.eq01-tabla th,
+.eq01-tabla td {
+    border: 1px solid #757575;
+    padding: 8px;
+    text-align: left;
+}
+
+.eq01-tabla thead th {
+    background-color: #6A1B9A;
+    color: #FFFFFF;
+}
+
+.eq01-tabla tbody tr:nth-child(even) {
+    background-color: #F3E5F5;
+}
+
+.eq01-tabla tbody tr:hover {
+    background-color: #F3E5F5;
+}
+
+.eq01-tabla tfoot {
+    font-weight: bold;
+}
+
+/* 11. Listas de datos (perfil y detalle) */
+.eq01-datos dt {
+    font-weight: bold;
+    color: #6A1B9A;
+}
+
+.eq01-datos dd {
+    margin-bottom: 8px;
+}
+
+/* 12. Figura del inicio */
+.eq01-figura figcaption {
+    font-size: 14px;
+    color: #757575;
+    text-align: center;
+    margin-top: 8px;
+}   
