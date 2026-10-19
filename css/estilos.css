@@ -165,4 +165,69 @@ a:hover {
     color: #757575;
     text-align: center;
     margin-top: 8px;
-}   
+} 
+
+/* 13. Formularios */
+.eq01-formulario fieldset {
+    border: 1px solid #757575;
+    border-radius: 4px;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.eq01-formulario legend {
+    font-weight: bold;
+    color: #6A1B9A;
+    padding: 0 8px;
+}
+
+.eq01-formulario label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+
+.eq01-formulario input,
+.eq01-formulario select,
+.eq01-formulario textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #757575;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #FFFFFF;
+}
+
+.eq01-formulario input:hover,
+.eq01-formulario select:hover,
+.eq01-formulario input:focus,
+.eq01-formulario select:focus,
+.eq01-formulario textarea:focus {
+    border: 2px solid #6A1B9A;
+}
+
+/* 14. Botones */
+.eq01-boton,
+.eq01-formulario button {
+    background-color: #6A1B9A;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+.eq01-boton:hover,
+.eq01-formulario button:hover {
+    background-color: #4A148C;
+}
+
+/* 15. Selector de id: el buscador del listado no ocupa todo el ancho */
+#eq01-buscar {
+    max-width: 320px;
+}
