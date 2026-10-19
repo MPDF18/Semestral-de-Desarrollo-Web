@@ -1,0 +1,268 @@
+   /* Hoja de estilo de CoSpace · Equipo 01 · Prefijo eq01- */
+
+   /* 1. Selector universal: se aplica a TODOS los elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 2. Selector de tipo: el cuerpo de la página */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #212121;
+    background-color: #FFFFFF;
+}
+
+/* 3. Selector de agrupación: varios elementos con la misma regla */
+h1, h2, h3 {
+    font-family: Georgia, "Times New Roman", serif;
+    color: #6A1B9A;
+    margin-bottom: 12px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+p, ul, ol, dl, table, figure {
+    margin-bottom: 16px;
+}
+
+ul, ol {
+    padding-left: 24px;
+}
+
+/* 4. Imágenes que se adaptan al ancho de la pantalla */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* 5. Enlaces con el color de acento */
+a {
+    color: #6A1B9A;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* 6. Selector de clase: el contenido principal centrado */
+.eq01-contenido {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 24px 16px;
+}   
+
+/* 7. Encabezado: logo y menú en una fila, fondo morado */
+.eq01-encabezado {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+    background-color: #6A1B9A;
+    padding: 12px 24px;
+}
+
+.eq01-logo {
+    display: block;
+    border: 2px solid #FFFFFF;
+    border-radius: 8px;
+}
+
+/* 8. Menú: opciones en fila, texto blanco */
+.eq01-menu ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.eq01-menu a {
+    display: block;
+    color: #FFFFFF;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+.eq01-menu a:hover {
+    background-color: #F3E5F5;
+    color: #6A1B9A;
+    text-decoration: none;
+}
+
+/* 9. Pie de página */
+.eq01-pie {
+    background-color: #F3E5F5;
+    text-align: center;
+    padding: 16px;
+    margin-top: 32px;
+}
+
+.eq01-pie p {
+    margin-bottom: 0;
+}
+/* 10. Tablas */
+.eq01-tabla {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.eq01-tabla caption {
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.eq01-tabla th,
+.eq01-tabla td {
+    border: 1px solid #757575;
+    padding: 8px;
+    text-align: left;
+}
+
+.eq01-tabla thead th {
+    background-color: #6A1B9A;
+    color: #FFFFFF;
+}
+
+.eq01-tabla tbody tr:nth-child(even) {
+    background-color: #F3E5F5;
+}
+
+.eq01-tabla tbody tr:hover {
+    background-color: #F3E5F5;
+}
+
+.eq01-tabla tfoot {
+    font-weight: bold;
+}
+
+/* 11. Listas de datos (perfil y detalle) */
+.eq01-datos dt {
+    font-weight: bold;
+    color: #6A1B9A;
+}
+
+.eq01-datos dd {
+    margin-bottom: 8px;
+}
+
+/* 12. Figura del inicio */
+.eq01-figura figcaption {
+    font-size: 14px;
+    color: #757575;
+    text-align: center;
+    margin-top: 8px;
+} 
+
+/* 13. Formularios */
+.eq01-formulario fieldset {
+    border: 1px solid #757575;
+    border-radius: 4px;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.eq01-formulario legend {
+    font-weight: bold;
+    color: #6A1B9A;
+    padding: 0 8px;
+}
+
+.eq01-formulario label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+
+.eq01-formulario input,
+.eq01-formulario select,
+.eq01-formulario textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #757575;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #FFFFFF;
+}
+
+.eq01-formulario input:hover,
+.eq01-formulario select:hover,
+.eq01-formulario input:focus,
+.eq01-formulario select:focus,
+.eq01-formulario textarea:focus {
+    border: 2px solid #6A1B9A;
+}
+
+/* 14. Botones */
+.eq01-boton,
+.eq01-formulario button {
+    background-color: #6A1B9A;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+.eq01-boton:hover,
+.eq01-formulario button:hover {
+    background-color: #4A148C;
+}
+
+/* 15. Selector de id: el buscador del listado no ocupa todo el ancho */
+#eq01-buscar {
+    max-width: 320px;
+}
+/* 16. Celular: pantallas de hasta 600 px de ancho */
+@media (max-width: 600px) {
+    .eq01-encabezado {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 12px 16px;
+    }
+
+    .eq01-menu,
+    .eq01-menu ul {
+        width: 100%;
+    }
+
+    .eq01-menu ul {
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .eq01-tabla {
+        display: block;
+        overflow-x: auto;
+    }
+
+    #eq01-buscar {
+        max-width: 100%;
+    }
+}
