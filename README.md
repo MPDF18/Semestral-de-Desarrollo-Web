@@ -16,7 +16,7 @@ CoSpace es un sistema web para un coworking pequeño que permite reservar puesto
 
 ## Cómo abrir el sitio
 
-Abrir `index.html` en el navegador.
+Copiar la carpeta en `C:\xampp\htdocs`, encender Apache en XAMPP y abrir `http://localhost/Semestral-de-Desarrollo-Web/index.php`.
 
 ## Personalización asignada
 
@@ -33,14 +33,14 @@ Abrir `index.html` en el navegador.
 
 ### HTML
 
-![index.html](docs/validacion/index.png)
-![login.html](docs/validacion/login.png)
-![registro.html](docs/validacion/registro.png)
-![recuperar.html](docs/validacion/recuperar.png)
-![panel.html](docs/validacion/panel.png)
-![perfil.html](docs/validacion/perfil.png)
-![principal-listado.html](docs/validacion/principal-listado.png)
-![principal-detalle.html](docs/validacion/principal-detalle.png)
+![index.php](docs/validacion/index.png)
+![login.php](docs/validacion/login.png)
+![registro.php](docs/validacion/registro.png)
+![recuperar.php](docs/validacion/recuperar.png)
+![panel.php](docs/validacion/panel.png)
+![perfil.php](docs/validacion/perfil.png)
+![principal-listado.php](docs/validacion/principal-listado.png)
+![principal-detalle.php](docs/validacion/principal-detalle.png)
 
 ## Declaración de herramientas
 
