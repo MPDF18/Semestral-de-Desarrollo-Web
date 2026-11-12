@@ -11,13 +11,13 @@
         <img src="img/logo.png" alt="Logo de CoSpace" width="100" height="100" class="eq01-logo">
         <nav class="eq01-menu">
             <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="principal-listado.html">Reservas</a></li>
-                <li><a href="principal-formulario.html">Nueva reserva</a></li>
-                <li><a href="secundaria-formulario.html">Miembros</a></li>
-                <li><a href="panel.html">Panel</a></li>
-                <li><a href="perfil.html">Mi perfil</a></li>
-                <li><a href="login.html">Iniciar sesión</a></li>
+                <li><a href="index.php">Inicio</a></li>
+                <li><a href="principal-listado.php">Reservas</a></li>
+                <li><a href="principal-formulario.php">Nueva reserva</a></li>
+                <li><a href="secundaria-formulario.php">Miembros</a></li>
+                <li><a href="panel.php">Panel</a></li>
+                <li><a href="perfil.php">Mi perfil</a></li>
+                <li><a href="login.php">Iniciar sesión</a></li>
             </ul>
         </nav>
     </header>
@@ -68,7 +68,7 @@
                     <button type="submit" class="eq01-boton">Cancelar reserva</button>
                 </fieldset>
             </form>
-            <p><a href="principal-listado.html">Volver a reservas</a></p>
+            <p><a href="principal-listado.php">Volver a reservas</a></p>
         </section>
     </main>
     <footer class="eq01-pie">

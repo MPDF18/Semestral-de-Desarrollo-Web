@@ -12,13 +12,13 @@
         <img src="img/logo.png" alt="Logo de CoSpace" width="100" height="100" class="eq01-logo">
         <nav class="eq01-menu">
             <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="principal-listado.html">Reservas</a></li>
-                <li><a href="principal-formulario.html">Nueva reserva</a></li>
-                <li><a href="secundaria-formulario.html">Miembros</a></li>
-                <li><a href="panel.html">Panel</a></li>
-                <li><a href="perfil.html">Mi perfil</a></li>
-                <li><a href="login.html">Iniciar sesión</a></li>
+                <li><a href="index.php">Inicio</a></li>
+                <li><a href="principal-listado.php">Reservas</a></li>
+                <li><a href="principal-formulario.php">Nueva reserva</a></li>
+                <li><a href="secundaria-formulario.php">Miembros</a></li>
+                <li><a href="panel.php">Panel</a></li>
+                <li><a href="perfil.php">Mi perfil</a></li>
+                <li><a href="login.php">Iniciar sesión</a></li>
             </ul>
         </nav>
     </header>
@@ -61,7 +61,7 @@
                         <td>Sala de reuniones 1</td>
                         <td><time datetime="2026-10-20">20/10/2026</time></td>
                         <td>9:00 a.m. - 10:00 a.m.</td>
-                        <td><a href="principal-detalle.html">Ver detalle</a></td>
+                        <td><a href="principal-detalle.php">Ver detalle</a></td>
                     </tr>
                     <tr>
                         <td>CS-0124</td>
@@ -69,7 +69,7 @@
                         <td>Puesto flexible 5</td>
                         <td><time datetime="2026-10-20">20/10/2026</time></td>
                         <td>10:30 a.m. - 12:00 p.m.</td>
-                        <td><a href="principal-detalle.html">Ver detalle</a></td>
+                        <td><a href="principal-detalle.php">Ver detalle</a></td>
                     </tr>
                     <tr>
                         <td>CS-0125</td>
@@ -77,7 +77,7 @@
                         <td>Terraza</td>
                         <td><time datetime="2026-10-21">21/10/2026</time></td>
                         <td>3:00 p.m. - 5:00 p.m.</td>
-                        <td><a href="principal-detalle.html">Ver detalle</a></td>
+                        <td><a href="principal-detalle.php">Ver detalle</a></td>
                     </tr>
                     <tr>
                         <td>CS-0126</td>
@@ -85,7 +85,7 @@
                         <td>Oficina privada 2</td>
                         <td><time datetime="2026-10-22">22/10/2026</time></td>
                         <td>8:00 a.m. - 12:00 p.m.</td>
-                        <td><a href="principal-detalle.html">Ver detalle</a></td>
+                        <td><a href="principal-detalle.php">Ver detalle</a></td>
                     </tr>
                 </tbody>
                 <tfoot>
