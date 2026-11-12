@@ -1,7 +1,8 @@
 <?php
 $titulo = 'Inicio';
 $descripcion = 'CoSpace: reserva puestos de trabajo y salas de reuniones en nuestro coworking.';
-include 'header.php';
+define('COSPACE', true);
+require __DIR__ . '/includes/header.php';
 ?>
     <main class="eq01-contenido">
         <h1>Bienvenido a CoSpace</h1>
@@ -29,4 +30,4 @@ include 'header.php';
             </ol>
         </section>
     </main>
-<?php include 'footer.php'; ?>
+<?php require __DIR__ . '/includes/footer.php'; ?>

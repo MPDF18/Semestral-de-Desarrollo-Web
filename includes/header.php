@@ -1,3 +1,4 @@
+<?php if (!defined('COSPACE')) { http_response_code(403); exit('Acceso denegado'); } ?>
 <?php if (session_status() === PHP_SESSION_NONE) { session_start(); } ?>
 <!DOCTYPE html>
 <html lang="es">

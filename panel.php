@@ -1,7 +1,8 @@
 <?php
 $titulo = 'Panel de administración';
 $descripcion = 'Panel de administración de CoSpace.';
-include 'header.php';
+define('COSPACE', true);
+require __DIR__ . '/includes/header.php';
 ?>
     <main class="eq01-contenido">
         <h1>Panel de administración</h1>
@@ -72,4 +73,4 @@ include 'header.php';
                         <p><a href="login.php">Cerrar sesión</a></p>
         </section>
     </main>
-<?php include 'footer.php'; ?>
+<?php require __DIR__ . '/includes/footer.php'; ?>

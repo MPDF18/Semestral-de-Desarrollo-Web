@@ -1,7 +1,8 @@
 <?php
 $titulo = 'Recuperar contraseña';
 $descripcion = 'Recuperar contraseña para acceder a tu cuenta.';
-include 'header.php';
+define('COSPACE', true);
+require __DIR__ . '/includes/header.php';
 ?>
     <main class="eq01-contenido">
         <h1>Recuperar contraseña</h1>
@@ -15,4 +16,4 @@ include 'header.php';
             </fieldset> 
         </form>
     </main>
-<?php include 'footer.php'; ?>
+<?php require __DIR__ . '/includes/footer.php'; ?>
