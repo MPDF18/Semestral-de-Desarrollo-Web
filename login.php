@@ -12,13 +12,13 @@
         <img src="img/logo.png" alt="Logo de CoSpace" width="100" height="100" class="eq01-logo">
         <nav class="eq01-menu">
             <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="principal-listado.html">Reservas</a></li>
-                <li><a href="principal-formulario.html">Nueva reserva</a></li>
-                <li><a href="secundaria-formulario.html">Miembros</a></li>
-                <li><a href="panel.html">Panel</a></li>
-                <li><a href="perfil.html">Mi perfil</a></li>
-                <li><a href="login.html">Iniciar sesión</a></li>
+                <li><a href="index.php">Inicio</a></li>
+                <li><a href="principal-listado.php">Reservas</a></li>
+                <li><a href="principal-formulario.php">Nueva reserva</a></li>
+                <li><a href="secundaria-formulario.php">Miembros</a></li>
+                <li><a href="panel.php">Panel</a></li>
+                <li><a href="perfil.php">Mi perfil</a></li>
+                <li><a href="login.php">Iniciar sesión</a></li>
             </ul>
         </nav>
     </header>
@@ -32,8 +32,8 @@
                 <label for="eq01-contrasena">Contraseña:</label>
                 <input type="password" id="eq01-contrasena" name="contrasena" required>
                 <button type="submit">Iniciar sesión</button>
-                <p>¿No tienes una cuenta? <a href="registro.html">Regístrate aquí</a>.</p>  
-                <p>¿Olvidaste tu contraseña? <a href="recuperar.html">Recupérala aquí</a>.</p>     
+                <p>¿No tienes una cuenta? <a href="registro.php">Regístrate aquí</a>.</p>  
+                <p>¿Olvidaste tu contraseña? <a href="recuperar.php">Recupérala aquí</a>.</p>     
             </fieldset> 
         </form>
     </main>

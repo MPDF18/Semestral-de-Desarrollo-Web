@@ -14,13 +14,13 @@
         <img src="img/logo.png" alt="Logo de CoSpace" width="100" height="100" class="eq01-logo">
         <nav class="eq01-menu">
             <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="principal-listado.html">Reservas</a></li>
-                <li><a href="principal-formulario.html">Nueva reserva</a></li>
-                <li><a href="secundaria-formulario.html">Miembros</a></li>
-                <li><a href="panel.html">Panel</a></li>
-                <li><a href="perfil.html">Mi perfil</a></li>
-                <li><a href="login.html">Iniciar sesión</a></li>
+                <li><a href="index.php">Inicio</a></li>
+                <li><a href="principal-listado.php">Reservas</a></li>
+                <li><a href="principal-formulario.php">Nueva reserva</a></li>
+                <li><a href="secundaria-formulario.php">Miembros</a></li>
+                <li><a href="panel.php">Panel</a></li>
+                <li><a href="perfil.php">Mi perfil</a></li>
+                <li><a href="login.php">Iniciar sesión</a></li>
             </ul>
         </nav>
     </header>
@@ -29,8 +29,8 @@
         <section class="eq01-seccion">
             <h2>Gestión de reservas</h2>
             <ul>
-                <li><a href="principal-listado.html">Ver todas las reservas</a></li>
-                <li><a href="principal-formulario.html">Crear nueva reserva</a></li>
+                <li><a href="principal-listado.php">Ver todas las reservas</a></li>
+                <li><a href="principal-formulario.php">Crear nueva reserva</a></li>
             </ul>
         </section>
         <section class="eq01-seccion">
@@ -90,7 +90,7 @@
                     <button type="submit">Guardar cambios</button>
                 </fieldset>
             </form>
-                        <p><a href="login.html">Cerrar sesión</a></p>
+                        <p><a href="login.php">Cerrar sesión</a></p>
         </section>
     </main>
     <footer class="eq01-pie">
