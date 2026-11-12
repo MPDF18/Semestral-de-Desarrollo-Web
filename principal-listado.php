@@ -1,7 +1,8 @@
 <?php
 $titulo = 'Reservas';
 $descripcion = 'Listado de reservas de CoSpace con búsqueda por miembro y filtro por tipo de espacio.';
-include 'header.php';
+define('COSPACE', true);
+require __DIR__ . '/includes/header.php';
 ?>
         <main class="eq01-contenido">
         <h1>Reservas</h1>
@@ -78,4 +79,4 @@ include 'header.php';
             </table>
         </section>
     </main>
-<?php include 'footer.php'; ?>
+<?php require __DIR__ . '/includes/footer.php'; ?>

@@ -1,7 +1,8 @@
 <?php
 $titulo = 'Registro';
 $descripcion = 'Regístrate en CoSpace para gestionar tus espacios de trabajo.';
-include 'header.php';
+define('COSPACE', true);
+require __DIR__ . '/includes/header.php';
 ?>
     <main class="eq01-contenido">
         <h1>Registro de usuario</h1>
@@ -23,4 +24,4 @@ include 'header.php';
             </fieldset> 
         </form>
     </main>
-<?php include 'footer.php'; ?>
+<?php require __DIR__ . '/includes/footer.php'; ?>

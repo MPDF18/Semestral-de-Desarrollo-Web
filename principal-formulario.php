@@ -1,7 +1,8 @@
 <?php
 $titulo = 'Nueva reserva';
 $descripcion = 'Reserva un puesto, oficina, sala o la terraza de CoSpace.';
-include 'header.php';
+define('COSPACE', true);
+require __DIR__ . '/includes/header.php';
 ?>
     <main class="eq01-contenido">
         <h1>Nueva reserva</h1>
@@ -54,4 +55,4 @@ include 'header.php';
             <p><a href="principal-listado.php">Volver a mis reservas</a></p>
         </form>
     </main>
-<?php include 'footer.php'; ?>
+<?php require __DIR__ . '/includes/footer.php'; ?>

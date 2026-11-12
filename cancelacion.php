@@ -1,7 +1,8 @@
 <?php
 $titulo = 'Cancelar reserva';
 $descripcion = 'Consulta y cancela una reserva en CoSpace.';
-include 'header.php';
+define('COSPACE', true);
+require __DIR__ . '/includes/header.php';
 ?>
     <main class="eq01-contenido">
         <h1>Detalle de la reserva</h1>
@@ -53,4 +54,4 @@ include 'header.php';
             <p><a href="principal-listado.php">Volver a reservas</a></p>
         </section>
     </main>
-<?php include 'footer.php'; ?>
+<?php require __DIR__ . '/includes/footer.php'; ?>

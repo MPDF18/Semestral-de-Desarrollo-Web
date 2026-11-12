@@ -1,7 +1,8 @@
 <?php
 $titulo = 'Mi perfil';
 $descripcion = 'Gestiona tu perfil en CoSpace.';
-include 'header.php';
+define('COSPACE', true);
+require __DIR__ . '/includes/header.php';
 ?>
     <main class="eq01-contenido">
         <h1>Mi perfil</h1>
@@ -30,4 +31,4 @@ include 'header.php';
             </ul>
         </section>
     </main>
-<?php include 'footer.php'; ?>
+<?php require __DIR__ . '/includes/footer.php'; ?>
